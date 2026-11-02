@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wb-kompensacii-1s.veridok.ru/sitemap.xml
