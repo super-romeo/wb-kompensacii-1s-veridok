@@ -8,6 +8,10 @@
 <meta name="description" content="Для бухгалтера селлера Wildberries: отчёты и компенсации WB — в документы 1С:Бухгалтерии 3.0 без ручного переноса, со сверкой сумм.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -62,38 +66,68 @@
 </head>
 <body>
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Отчёты WB в 1С</a></div>
-  <nav class="top"><a href="#chto" data-ev="click_nav_chto">Что вы получаете</a><a href="price.html" data-ev="click_nav_cena">Цена</a><a href="#primer" data-ev="click_nav_primer">Пример</a><a href="#start" data-ev="click_nav_start">Начать</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Отчёты WB в 1С</a>
+  <nav><a href="#chto" data-ev="click_nav_chto">Что вы получаете</a><a href="price.html" data-ev="click_nav_cena">Цена</a><a href="#primer" data-ev="click_nav_primer">Пример</a><a href="#start" data-ev="click_nav_start">Начать</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Отчёты и компенсации Wildberries — в 1С:Бухгалтерию без ручного переноса</h1>
-    <p class="sub">Для бухгалтеров, которые ведут селлеров WB в 1С:Бухгалтерии 3.0: вы загружаете отчёт детализации из кабинета продавца, сервис раскладывает продажи, возвраты и компенсации по документам 1С и показывает расхождения до проведения.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Узнать стоимость и тарифы</a>
-    <p class="cta-note">Ранний доступ · Оплата на этой странице пока не принимается</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Для бухгалтеров, которые ведут селлеров</p>
+      <h1 class="rise" style="--i:1" data-len="long">Отчёты и компенсации Wildberries&nbsp;<span class="soft">— в 1С:Бухгалтерию без ручного переноса</span></h1>
+      <p class="rise" style="--i:2">Для бухгалтеров, которые ведут селлеров WB в 1С:Бухгалтерии 3.0: вы загружаете отчёт детализации из кабинета продавца, сервис раскладывает продажи, возвраты и компенсации по документам 1С и показывает расхождения до проведения.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Узнать стоимость и тарифы</a>
+      <p class="meta rise" style="--i:4">Ранний доступ · Оплата на этой странице пока не принимается</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="155" font-size="40" fill="#0a1524" font-weight="600">Компенсации</text><line x1="120" y1="196" x2="1080" y2="196" fill="none" stroke="#dde2ea" stroke-width="3" /><rect x="120" y="240" width="48" height="48" rx="10" fill="#dfe8f7" /><polyline points="132,266 140,274 156,256" fill="none" stroke="#12397a" stroke-width="4" /><text x="190" y="274" font-size="30" fill="#0a1524">Отчёты о продажах</text><rect x="120" y="350" width="48" height="48" rx="10" fill="#dfe8f7" /><text x="190" y="384" font-size="30" fill="#0a1524">Компенсации</text><rect x="120" y="460" width="48" height="48" rx="10" fill="#dfe8f7" /><text x="190" y="494" font-size="30" fill="#0a1524">Сверка</text><rect x="120" y="570" width="48" height="48" rx="10" fill="#dfe8f7" /><text x="190" y="604" font-size="30" fill="#0a1524">Несколько селлеров</text><rect x="700" y="240" width="370" height="420" rx="20" fill="#dfe8f7" /><text x="730" y="300" font-size="32" fill="#0a1524" font-weight="600">Расхождения</text><rect x="740" y="500" width="48" height="120" rx="8" fill="#ffffff" /><rect x="820" y="440" width="48" height="180" rx="8" fill="#ffffff" /><rect x="900" y="530" width="48" height="90" rx="8" fill="#ffffff" /><rect x="980" y="400" width="48" height="220" rx="8" fill="#12397a" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Для</dt><dd>Бухгалтеров которые ведут селлеров</dd></div>
+      <div><dt>Отчёты</dt><dd>Продажи, возвраты и компенсации</dd></div>
+      <div><dt>Как</dt><dd>Загружаете отчёт детализации</dd></div>
+      <div><dt>Доступ</dt><dd>Ранний доступ</dd></div>
+    </dl>
+  </section>
 
   <section id="chto" data-view="features_view">
-    <h2>Что вы получаете</h2>
-    <div class="grid">
-      <div class="card"><b>Отчёты о продажах</b><span>Продажи и возвраты из детализации WB.</span><br><a class="btn" href="price.html" data-ev="feature_otchety">Мне это нужно</a></div>
-      <div class="card"><b>Компенсации</b><span>Компенсации WB — в «Отчёт комиссионера».</span><br><a class="btn" href="price.html" data-ev="feature_kompensacii">Мне это нужно</a></div>
-      <div class="card"><b>Сверка</b><span>Суммы отчёта и документов 1С рядом.</span><br><a class="btn" href="price.html" data-ev="feature_sverka">Мне это нужно</a></div>
-      <div class="card"><b>Несколько селлеров</b><span>Отдельно по каждой базе клиента.</span><br><a class="btn" href="price.html" data-ev="feature_bazy">Мне это нужно</a></div>
+    <div class="stack"><h2>Что вы получаете</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="56" width="660" height="488" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="108" y="128" font-size="30" fill="#0a1524" font-weight="600">Отчёты о продажах</text><text x="108" y="176" font-size="28" fill="#566174">Продажи и возвраты</text><rect x="140" y="220" width="520" height="270" rx="12" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="180" y="260" width="300" height="22" rx="8" fill="#dde2ea" /><rect x="180" y="308" width="220" height="22" rx="8" fill="#b9c3d2" /><rect x="180" y="356" width="360" height="22" rx="8" fill="#dde2ea" /><rect x="180" y="404" width="160" height="22" rx="8" fill="#b9c3d2" /><circle cx="590" cy="270" r="28" fill="#dfe8f7" /><polyline points="576,270 586,282 608,256" fill="none" stroke="#12397a" stroke-width="4" /></svg></div>
+        <h3>Отчёты о продажах</h3><p>Продажи и возвраты из детализации WB.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_otchety">Мне это нужно</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="56" width="660" height="488" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="108" y="128" font-size="36" fill="#0a1524" font-weight="600">Компенсации</text><text x="108" y="176" font-size="28" fill="#566174">Отчёт комиссионера</text><line x1="140" y1="500" x2="680" y2="500" fill="none" stroke="#b9c3d2" stroke-width="4" /><rect x="160" y="380" width="56" height="120" rx="8" fill="#dfe8f7" /><rect x="260" y="300" width="56" height="200" rx="8" fill="#dfe8f7" /><rect x="360" y="410" width="56" height="90" rx="8" fill="#dfe8f7" /><rect x="460" y="250" width="56" height="250" rx="8" fill="#12397a" /><rect x="560" y="340" width="56" height="160" rx="8" fill="#dfe8f7" /></svg></div>
+        <h3>Компенсации</h3><p>Компенсации WB — в «Отчёт комиссионера».</p>
+        <a class="button quiet" href="price.html" data-ev="feature_kompensacii">Мне это нужно</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="56" width="660" height="488" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="108" y="128" font-size="36" fill="#0a1524" font-weight="600">Сверка</text><text x="108" y="176" font-size="28" fill="#566174">Суммы отчёта</text><rect x="100" y="220" width="240" height="300" rx="14" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="460" y="220" width="240" height="300" rx="14" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="270" width="170" height="20" rx="6" fill="#dde2ea" /><rect x="490" y="270" width="170" height="20" rx="6" fill="#dde2ea" /><line x1="320" y1="280" x2="470" y2="280" fill="none" stroke="#12397a" stroke-width="3" /><rect x="130" y="340" width="170" height="20" rx="6" fill="#dde2ea" /><rect x="490" y="340" width="170" height="20" rx="6" fill="#b9c3d2" /><line x1="320" y1="350" x2="470" y2="350" fill="none" stroke="#b9c3d2" stroke-width="3" /><rect x="130" y="410" width="170" height="20" rx="6" fill="#dde2ea" /><rect x="490" y="410" width="170" height="20" rx="6" fill="#dde2ea" /><line x1="320" y1="420" x2="470" y2="420" fill="none" stroke="#12397a" stroke-width="3" /></svg></div>
+        <h3>Сверка</h3><p>Суммы отчёта и документов 1С рядом.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_sverka">Мне это нужно</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="56" width="660" height="488" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="108" y="128" font-size="28" fill="#0a1524" font-weight="600">Несколько селлеров</text><text x="108" y="176" font-size="28" fill="#566174">по каждой базе</text><rect x="130" y="230" width="110" height="64" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="270" y="230" width="110" height="64" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="410" y="230" width="110" height="64" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="550" y="230" width="110" height="64" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="130" y="320" width="110" height="64" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="270" y="320" width="110" height="64" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="410" y="320" width="110" height="64" rx="10" fill="#12397a" stroke="#dde2ea" stroke-width="2" /><rect x="550" y="320" width="110" height="64" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="130" y="410" width="110" height="64" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="270" y="410" width="110" height="64" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="410" y="410" width="110" height="64" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="550" y="410" width="110" height="64" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /></svg></div>
+        <h3>Несколько селлеров</h3><p>Отдельно по каждой базе клиента.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_bazy">Мне это нужно</a>
+      </article>
     </div>
   </section>
 
-  <section id="primer" data-view="example_view">
-    <h2>Пример (вымышленные данные)</h2>
-    <p class="fine">Бухгалтер на аутсорсе ведёт четырёх селлеров Wildberries. Каждую неделю она открывала отчёт детализации, вручную искала строки компенсаций и переносила суммы в 1С. Теперь она загружает файл отчёта, сервис показывает продажи, возвраты и компенсации отдельно, сопоставляет их с номенклатурой базы и готовит документы. Бухгалтер проверяет расхождения и проводит документы.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Выбрать тариф</a>
+  <section id="primer" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Пример</h2>
+      <p>Бухгалтер на аутсорсе ведёт четырёх селлеров Wildberries. Каждую неделю она открывала отчёт детализации, вручную искала строки компенсаций и переносила суммы в 1С. Теперь она загружает файл отчёта, сервис показывает продажи, возвраты и компенсации отдельно, сопоставляет их с номенклатурой базы и готовит документы. Бухгалтер проверяет расхождения и проводит документы.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Выбрать тариф</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="240" y1="150" x2="960" y2="150" fill="none" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="240" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">Файл отчёта</text><circle cx="600" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="600" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">С номенклатурой</text><circle cx="960" cy="150" r="22" fill="#12397a" stroke="#12397a" stroke-width="6" /><text x="960" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">Проводит</text><rect x="120" y="300" width="960" height="420" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="170" y="380" font-size="36" fill="#0a1524" font-weight="600">Четырёх селлеров</text><text x="170" y="660" font-size="30" fill="#566174">Расхождения</text><rect x="170" y="450" width="70" height="70" rx="12" fill="#dfe8f7" /><rect x="270" y="450" width="70" height="70" rx="12" fill="#12397a" /><rect x="370" y="450" width="70" height="70" rx="12" fill="#dfe8f7" /><rect x="470" y="450" width="70" height="70" rx="12" fill="#dfe8f7" /><rect x="570" y="450" width="70" height="70" rx="12" fill="#12397a" /><rect x="670" y="450" width="70" height="70" rx="12" fill="#dfe8f7" /></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Как это работает</h2>
-    <p>Продажи селлера Wildberries бухгалтер отражает в 1С:Бухгалтерии по отчётам маркетплейса. Отчёты приходят каждую неделю, в них продажи, возвраты, удержания и компенсации, и у каждого селлера это десятки и сотни строк.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Как это работает</h2></div>
+    <div class="stack">
+      <p>Продажи селлера Wildberries бухгалтер отражает в 1С:Бухгалтерии по отчётам маркетплейса. Отчёты приходят каждую неделю, в них продажи, возвраты, удержания и компенсации, и у каждого селлера это десятки и сотни строк.</p>
     <p>Ниже — как устроен сервис. Ответы на частые вопросы — в разделе <a href="#faq" data-ev="click_opis_faq">вопросов и ответов</a>, а оставить заявку можно <a href="#start" data-ev="click_opis_start">внизу страницы</a>.</p>
     <p>Часть работы 1С уже умеет сама: начиная с релиза 3.0.114 в Бухгалтерию можно загружать отчёты о продажах из личного кабинета Wildberries, а в релизе 3.0.140.40 добавлена загрузка информации о списаниях товаров из отчётов Wildberries и Ozon.</p>
     <p>Компенсации — отдельная история. Это суммы, которые Wildberries возмещает селлеру, и их нужно найти в отчёте детализации, отделить от продаж и отразить в документе «Отчёт комиссионера». Для этого бухгалтеры покупают отдельные внешние обработки или переносят суммы вручную.</p>
@@ -108,31 +142,34 @@
     <p>Отчёты содержат коммерческие данные селлера. Мы используем их только для загрузки в 1С и не передаём третьим лицам.</p>
     <p>Сервис сейчас в подготовке: сначала мы проверяем, нужен ли он бухгалтерам селлеров.</p>
     <p>Сервис готовит документы по данным отчёта; проверяет и проводит их бухгалтер.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Вопросы и ответы</h2>
-    <h3>С какой конфигурацией 1С работает сервис?</h3>
-    <p>С 1С:Бухгалтерией предприятия, редакция 3.0.</p>
-    <h3>Разве 1С не загружает отчёты WB сама?</h3>
-    <p>Отчёты о продажах из кабинета Wildberries 1С загружает с релиза 3.0.114, списания — с релиза 3.0.140.40. Сервис добавляет компенсации, сопоставление с номенклатурой и сверку сумм.</p>
-    <h3>Откуда берётся отчёт?</h3>
-    <p>Из кабинета продавца Wildberries — файлом отчёта детализации или по ключу API для чтения отчётов.</p>
-    <h3>Можно вести нескольких селлеров?</h3>
-    <p>Да. Отчёты и сопоставления каждого селлера хранятся отдельно.</p>
-    <h3>Можно уже пользоваться?</h3>
-    <p>Пока нет. Сервис в подготовке, и мы проверяем, нужен ли он бухгалтерам.</p>
+    <div class="stack"><h2>Вопросы и ответы</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>С какой конфигурацией 1С работает сервис?</h3><p>С 1С:Бухгалтерией предприятия, редакция 3.0.</p></div>
+      <div class="split flip"><h3>Разве 1С не загружает отчёты WB сама?</h3><p>Отчёты о продажах из кабинета Wildberries 1С загружает с релиза 3.0.114, списания — с релиза 3.0.140.40. Сервис добавляет компенсации, сопоставление с номенклатурой и сверку сумм.</p></div>
+      <div class="split flip"><h3>Откуда берётся отчёт?</h3><p>Из кабинета продавца Wildberries — файлом отчёта детализации или по ключу API для чтения отчётов.</p></div>
+      <div class="split flip"><h3>Можно вести нескольких селлеров?</h3><p>Да. Отчёты и сопоставления каждого селлера хранятся отдельно.</p></div>
+      <div class="split flip"><h3>Можно уже пользоваться?</h3><p>Пока нет. Сервис в подготовке, и мы проверяем, нужен ли он бухгалтерам.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Оставить заявку</h2>
-    <p><label>Сколько селлеров WB вы ведёте<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— выберите —</option><option>Одного</option><option>2–5</option><option>6–15</option><option>Больше 15</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Начать</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Оставить заявку</h2>
+    </div>
+    <div class="tile stack">
+      <label>Сколько селлеров WB вы ведёте<select data-ev-focus="form_start"><option value="">— выберите —</option><option>Одного</option><option>2–5</option><option>6–15</option><option>Больше 15</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Начать</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Отчёты WB в 1С</b></p>
   <p>Оператор: ИП Гудев Роман, ИНН 615007167949 &middot; <a href="privacy.html" data-ev="click_legal_privacy">Политика обработки персональных данных</a></p>
-  <p class="muted">Сервис готовит документы по данным отчёта Wildberries; проверяет и проводит их бухгалтер.</p>
+  <p>Сервис готовит документы по данным отчёта Wildberries; проверяет и проводит их бухгалтер.</p>
 </div></footer>
 
 </body>
